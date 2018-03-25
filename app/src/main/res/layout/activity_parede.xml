@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="br.com.una.orcamento2.ParedeActivity">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/txtQuantidade2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Quantidade"
+            android:textSize="30sp" />
+
+        <EditText
+            android:id="@+id/edtQuantidade2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Latas"
+            android:textSize="18sp" />
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="219dp"
+            android:layout_marginTop="30dp"
+            android:orientation="horizontal">
+
+            <RadioGroup
+                android:id="@+id/rgOpcoes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:id="@+id/rb1Parede"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_weight="1"
+                    android:paddingLeft="16dp"
+                    android:text="Tinta 1    -   R$ 35,00"
+                    android:textSize="24sp" />
+
+
+                <RadioButton
+                    android:id="@+id/rb2Parede"
+                    android:layout_width="match_parent"
+                    android:layout_height="59dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_weight="1"
+                    android:paddingLeft="16dp"
+                    android:text="Tinta 2   -   R$55,00"
+                    android:textSize="24sp" />
+
+
+            </RadioGroup>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="406dp"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btnOk2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="50dp"
+                    android:layout_marginLeft="100dp"
+                    android:baselineAligned="false"
+                    android:text="OK" />
+
+                <Button
+                    android:id="@+id/btnCancel2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="Cancelar" />
+
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txtQuantidade2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Quantidade"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/edtQuantidade2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="219dp"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal">
+
+        <RadioGroup
+            android:id="@+id/rgOpcoes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/rb1Piso"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_weight="1"
+                android:paddingLeft="16dp"
+                android:text="Porcelanato 1    -   R$75,00"
+                android:textSize="24sp" />
+
+
+            <RadioButton
+                android:id="@+id/rb2Piso"
+                android:layout_width="match_parent"
+                android:layout_height="59dp"
+                android:layout_marginTop="30dp"
+                android:layout_weight="1"
+                android:paddingLeft="16dp"
+                android:text="Porcelanato 2   -   R$ 125,00"
+                android:textSize="24sp" />
+
+
+            <RadioButton
+                android:id="@+id/rb3Piso"
+                android:layout_width="399dp"
+                android:layout_height="57dp"
+                android:layout_marginTop="30dp"
+                android:layout_weight="1"
+                android:paddingLeft="16dp"
+                android:text="Porcelanato 3   -   R$100,00"
+                android:textSize="24sp" />
+
+        </RadioGroup>
+
+
+    </LinearLayout>
+
+    <RadioGroup
+        android:id="@+id/rgOpcoes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/rb1Piso"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:paddingLeft="16dp"
+            android:text="Porcelanato 1    -   R$75,00"
+            android:textSize="24sp" />
+
+
+        <RadioButton
+            android:id="@+id/rb2Piso"
+            android:layout_width="match_parent"
+            android:layout_height="59dp"
+            android:layout_marginTop="30dp"
+            android:layout_weight="1"
+            android:paddingLeft="16dp"
+            android:text="Porcelanato 2   -   R$ 125,00"
+            android:textSize="24sp" />
+
+
+        <RadioButton
+            android:id="@+id/rb3Piso"
+            android:layout_width="399dp"
+            android:layout_height="57dp"
+            android:layout_marginTop="30dp"
+            android:layout_weight="1"
+            android:paddingLeft="16dp"
+            android:text="Porcelanato 3   -   R$100,00"
+            android:textSize="24sp" />
+
+    </RadioGroup>
+
+    <RadioButton
+        android:id="@+id/rb1Piso2"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_weight="1"
+        android:paddingLeft="16dp"
+        android:text="Porcelanato 1    -   R$75,00"
+        android:textSize="24sp" />
+
+    <RadioButton
+        android:id="@+id/rb2Piso2"
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        android:layout_marginTop="30dp"
+        android:layout_weight="1"
+        android:paddingLeft="16dp"
+        android:text="Porcelanato 2   -   R$ 125,00"
+        android:textSize="24sp" />
+
+    <RadioButton
+        android:id="@+id/rb3Piso2"
+        android:layout_width="399dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="30dp"
+        android:layout_weight="1"
+        android:paddingLeft="16dp"
+        android:text="Porcelanato 3   -   R$100,00"
+        android:textSize="24sp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="406dp"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnOk"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="50dp"
+                android:layout_marginLeft="100dp"
+                android:baselineAligned="false"
+                android:text="OK" />
+
+            <Button
+                android:id="@+id/btnCancel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="Cancelar" />
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="406dp"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnOk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="50dp"
+            android:layout_marginLeft="100dp"
+            android:baselineAligned="false"
+            android:text="OK" />
+
+        <Button
+            android:id="@+id/btnCancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="Cancelar" />
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnOk2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp"
+        android:layout_marginLeft="100dp"
+        android:baselineAligned="false"
+        android:text="OK" />
+
+    <Button
+        android:id="@+id/btnCancel2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text="Cancelar" />
+</LinearLayout>
